@@ -1,11 +1,4 @@
-// function Profile(){
-//     return 
-//     <>
-//     <Profile />
-//     </>;
-// }
 
-// export default Profile; 
 import React from "react";
 import Avatar from './Avatar';
 export default function Profile({image, name, title, isNew}){
@@ -17,3 +10,4 @@ export default function Profile({image, name, title, isNew}){
         </div>
     )
 }
+ 
