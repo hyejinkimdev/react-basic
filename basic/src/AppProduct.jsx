@@ -1,10 +1,9 @@
 import React, {useState} from "react";
 import './App.scss';
-import Product from './components/Product';
+import Products from './components/Products';
 
-export default function AppProduct(){
-    const [count, setCount] = useState(0);
-    const handleClick = () => setCount((prev) => prev + 1);
+export default function AppProducts(){
+    const [showProducts, setShowProducts] = useState(true);
     return (
         <>
             <hr></hr>
@@ -12,7 +11,8 @@ export default function AppProduct(){
                 <div className="container">
                     <h2>Product</h2>
                     <div className="products">
-                        <Product />
+                        {showProducts && <Products />}
+                        <button onClick={() => setShowProducts((show) => !show)}>Toggle</button>
                     </div>
                 </div>  
             </div>
