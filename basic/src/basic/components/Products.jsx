@@ -7,7 +7,7 @@ export default function Products() {
     useEffect(() => {
         fetch('data/products.json') //fetch : 브라우저 제공 API, data 접근, 비동기
         .then(res => res.json()) // json 형태로 가져옴
-        .then( data => {
+        .then(data => {
             console.log('데이터를 네트워크에서 잘 받아옴!🔥');
             setProducts(data);
         });

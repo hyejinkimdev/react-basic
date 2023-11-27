@@ -9,10 +9,10 @@ export default function AppProducts(){
             <hr></hr>
             <div className="ex-counter">
                 <div className="container">
-                    <h2>Product</h2>
+                    <h2>Product (useEffect)</h2>
                     <div className="products">
-                        {showProducts && <Products />}
                         <button onClick={() => setShowProducts((show) => !show)}>Toggle</button>
+                        {showProducts && <Products />}
                     </div>
                 </div>  
             </div>

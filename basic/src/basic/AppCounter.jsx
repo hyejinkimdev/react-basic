@@ -10,7 +10,7 @@ export default function AppCounter(){
             <hr></hr>
             <div className="ex-counter">
                 <div className="container">
-                    <h2>Counter</h2>
+                    <h2>Counter (useState)</h2>
                     <div className="banner">
                         Total Count : {count} {count > 10 ? '🔥' : '❄️'}
                     </div>
