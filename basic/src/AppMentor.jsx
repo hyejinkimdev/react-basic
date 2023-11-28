@@ -1,7 +1,6 @@
 import React, {  useState } from 'react';
-// import './appMentor.scss';
 
-// js개념
+// // js개념
 // const obj = {
 //     name: '엘리',
 //     title: '개발자',
