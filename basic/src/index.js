@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 
 // basic
 // import AppProfile from './AppProfile';
@@ -9,9 +9,10 @@ import reportWebVitals from './reportWebVitals';
 // import AppProduct from './AppProduct';
 
 // import AppXY from './AppXY';
-import AppMentor from './AppMentor';
+// import AppMentor from './AppMentor';
+import AppMentors from "./AppMentors";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <AppProfile/>
@@ -19,7 +20,7 @@ root.render(
     <AppProduct/> */}
     {/* <AppXY /> */}
     {/* <AppMentor /> */}
-    <AppMentor />
+    <AppMentors />
   </React.StrictMode>
 );
 
