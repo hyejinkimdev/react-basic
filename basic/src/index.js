@@ -9,10 +9,11 @@ import reportWebVitals from "./reportWebVitals";
 // import AppProduct from './AppProduct';
 
 // import AppXY from './AppXY';
-import AppMentor from "./AppMentor";
+// import AppMentor from "./AppMentor";
 // import AppMentors from "./AppMentors";
-import AppForm from "./AppForm";
+// import AppForm from "./AppForm";
 import AppTheme from "./AppTheme";
+import AppMentorsButton from "./AppMentorsButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,9 +22,10 @@ root.render(
     <AppCounter/>
     <AppProduct/> */}
     {/* <AppXY /> */}
-    <AppMentor />
-    <AppForm />
+    {/* <AppMentor /> */}
+    {/* <AppForm /> */}
     <AppTheme />
+    <AppMentorsButton />
   </React.StrictMode>
 );
 
