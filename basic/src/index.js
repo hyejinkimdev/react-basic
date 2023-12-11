@@ -12,6 +12,7 @@ import reportWebVitals from "./reportWebVitals";
 import AppMentor from "./AppMentor";
 // import AppMentors from "./AppMentors";
 import AppForm from "./AppForm";
+import AppTheme from "./AppTheme";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     {/* <AppXY /> */}
     <AppMentor />
     <AppForm />
+    <AppTheme />
   </React.StrictMode>
 );
 
